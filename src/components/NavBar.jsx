@@ -17,9 +17,9 @@ const Navbar = () => {
           <img
             src={Logo}
             alt="Logo"
-            className="hidden md:block w-8 h-8 lg:w-14 lg:h-14"
+            className=" md:block w-8 h-8 lg:w-12 lg:h-12"
           />
-          Flavor<span>Verse</span>
+          Recipe<span className="text-green-400">fy</span>
         </a>
 
         <ul className="hidden md:flex text-white gap-6">
