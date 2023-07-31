@@ -50,7 +50,7 @@ const Recipes = () => {
     return <Loading />;
   }
   return (
-    <div className="w-full">
+    <div className="w-full pt-10">
       <div className="w-full flex items-center justify-center pt-10 pb-5 px-0 md:px-10">
         <form className="w-full lg:w-2/4" onSubmit={handleSearchedRecipe}>
           <Searchbar

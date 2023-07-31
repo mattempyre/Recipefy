@@ -29,9 +29,6 @@ const Navbar = () => {
           <li>
             <a href="/#recipes">Explore</a>
           </li>
-          <li>
-            <a href="/favorites">Favorites</a>
-          </li>
         </ul>
 
         <Button
@@ -53,7 +50,6 @@ const Navbar = () => {
       >
         <a href="/">Home</a>
         <a href="/#recipes">Recipes</a>
-        <a href="/">Favorites</a>
       </div>
     </header>
   );
